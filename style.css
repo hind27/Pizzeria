@@ -160,7 +160,8 @@ body {
 #about-us ul {
   margin-left: 20px;
   background-color: #ffba00;
-  width: 800px;
+  width: 90%;
+  min-width: 400px;
   height: 100px;
 }
 
@@ -398,21 +399,21 @@ a.socialIcon:hover, .socialHoverClass {
 
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
-  .navbar .nav-item .dropdown-menu {
-    display: none;
-  }
+
   .navbar .nav-item:hover .nav-link {
     color: #fff;
   }
-  .navbar .nav-item:hover .dropdown-menu {
-    display: block;
-  }
-  .navbar .nav-item .dropdown-menu {
-    margin-top: 0;
-  }
+ 
+ 
 }
 /* ============ desktop view .end// ============ */
 @media screen and (max-width: 1200px) {
+ 
+  .navbar .nav-item:hover .nav-link {
+    color: #fff;
+  }
+  
+  
 }
 @media screen and (max-width: 767px) {
 }
