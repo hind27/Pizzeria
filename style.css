@@ -406,20 +406,32 @@ a.socialIcon:hover,
 /* ============ desktop view ============ */
 
 @media screen and (max-width: 767px) {
+  
   .navbar .nav-item:hover .nav-link {
     color: #fff;
   }
+ 
   .timeline {
+    margin-top: 90%;
     width: 100%;
   }
 
   .promo-title {
     font-size: 50px;
+    text-align: center;
+    margin-left: 0px;
   }
 
   .opening {
     font-size: 40px;
+    text-align: center;
+    margin-left: 0px;
   }
+  .container-fluid button {
+    margin-top: 0px;}
+  .menuBorder {
+      margin: 12px;
+     }
   .wordgrallary {
     color: wheat;
   }
@@ -447,16 +459,29 @@ a.socialIcon:hover,
   .navbar .nav-item:hover .nav-link {
     color: #fff;
   }
+  .navbar .navbar-collapse {
+    text-align: center;
+}
   .timeline {
+    margin-top: 90%;
     width: 100%;
   }
 
   .promo-title {
     font-size: 50px;
+    text-align: center;
+    margin-left: 0px;
   }
 
   .opening {
     font-size: 40px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .container-fluid button {
+    margin-top: 0px;}
+  .menuBorder {
+   margin: 12px;
   }
   .wordgrallary {
     color: wheat;
