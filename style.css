@@ -426,7 +426,6 @@ a.socialIcon:hover, .socialHoverClass {
 /* ============ desktop view .end// ============ */
 @media screen and (max-width: 1200px) {
  
- 
   .navbar .nav-item:hover .nav-link {
     color: #fff;
   }
@@ -436,17 +435,30 @@ a.socialIcon:hover, .socialHoverClass {
 
 .promo-title {
     font-size: 50px;
- 
-}
-
+ }
 .opening {
  font-size: 40px;
-}
+ }
 .wordgrallary{
   color: wheat;
-}
+ }
 .about-title {
   margin-left: 0ch;
+ }
+ .about-title {
+  margin-left: 0ch;
+  margin-top: 0ch;
+}
+.rotate {
+  -webkit-transform: none;
+  float: none;
+  margin: 10px;
+}
+#about-us ul {
+   margin-left: 0px;
+  background-color: #ffba00;
+  width: 95%;
+   height: 70%;
 }
 }
 @media screen and (max-width: 767px) {
@@ -472,6 +484,18 @@ a.socialIcon:hover, .socialHoverClass {
 .about-title {
   margin-left: 0ch;
   margin-top: 0ch;
+}
+.rotate {
+  -webkit-transform: none;
+  float: none;
+  margin: 10px;
+}
+#about-us ul {
+   margin-left: 0px;
+  background-color: #ffba00;
+  width: 95%;
+   height: 70%;
+}
 }
 
 #about-us {
