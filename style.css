@@ -161,7 +161,6 @@ body {
   margin-left: 20px;
   background-color: #ffba00;
   width: 90%;
- 
   height: 100px;
 }
 
@@ -232,7 +231,6 @@ body {
 .menuBorder ul li {
   color: #fff;
   list-style-type: none;
-
   line-height: inherit;
 }
 .des {
@@ -311,6 +309,9 @@ body {
 }
 .gallary{
   color: #ffba00;
+}
+.wordgrallary{
+  margin: 30px; font-weight:900; text-transform: uppercase; font-size: 2rem;
 }
  .container .main {
   position:absolute;
@@ -403,19 +404,78 @@ a.socialIcon:hover, .socialHoverClass {
   .navbar .nav-item:hover .nav-link {
     color: #fff;
   }
+  .timeline{
+    width: 100%;
+  }
+
+.promo-title {
+    font-size: 50px;
  
- 
+}
+
+.opening {
+ font-size: 40px;
+}
+.wordgrallary{
+  color: wheat;
+}
+.about-title {
+  margin-left: 0ch;
+}
 }
 /* ============ desktop view .end// ============ */
 @media screen and (max-width: 1200px) {
  
+ 
   .navbar .nav-item:hover .nav-link {
     color: #fff;
   }
-  
-  
+  .timeline{
+    width: 100%;
+  }
+
+.promo-title {
+    font-size: 50px;
+ 
+}
+
+.opening {
+ font-size: 40px;
+}
+.wordgrallary{
+  color: wheat;
+}
+.about-title {
+  margin-left: 0ch;
+}
 }
 @media screen and (max-width: 767px) {
+  
+  .navbar .nav-item:hover .nav-link {
+    color: #fff;
+  }
+  .timeline{
+    width: 100%;
+  }
+
+.promo-title {
+    font-size: 50px;
+ 
+}
+
+.opening {
+ font-size: 40px;
+}
+.wordgrallary{
+  color: wheat;
+}
+.about-title {
+  margin-left: 0ch;
+  margin-top: 0ch;
+}
+
+#about-us {
+  background-image: none;
 }
 @media screen and (max-width: 575px) {
 }
