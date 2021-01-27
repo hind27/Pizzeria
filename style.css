@@ -196,6 +196,7 @@ body {
   position: relative;
   color: #ffba00;
   background-color: rgba(0, 0, 0, 0.5);
+  
 }
 .menu::before {
   content: "";
@@ -240,6 +241,7 @@ body {
   font-family: Lato-Black, Lato-Medium, AdobeInvisFont, MyriadPro-Regular;
   font-size: 1.25rem;
   line-height: inherit;
+  font-weight:250 ;
 }
 .top-buffer {
   margin-top: 20px;
@@ -412,7 +414,7 @@ a.socialIcon:hover,
   }
  
   .timeline {
-    margin-top: 90%;
+    
     width: 100%;
   }
 
@@ -479,7 +481,8 @@ a.socialIcon:hover,
     margin-left: 0px;
   }
   .container-fluid button {
-    margin-top: 0px;}
+    margin-top: 0px;
+  }
   .menuBorder {
    margin: 12px;
   }
