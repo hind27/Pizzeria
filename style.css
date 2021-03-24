@@ -271,8 +271,8 @@ body {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100vh;
-  margin-bottom: 0rem;
+  height: 70vh;
+  margin-bottom: 0 !important;
 }
 .card {
   color: #fff;
@@ -314,8 +314,7 @@ body {
   background: -moz-linear-gradient(left, rgb(36,36,36) 16%, rgb(255,186,0) 16%, rgb(255,186,0) 16%, rgb(255,186,0) 25%, rgb(255,186,0) 25%, rgb(36,36,36) 25%, rgb(36,36,36) 25%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left, rgb(36,36,36) 16%,rgb(255,186,0) 16%,rgb(255,186,0) 16%,rgb(255,186,0) 25%,rgb(255,186,0) 25%,rgb(36,36,36) 25%,rgb(36,36,36) 25%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, rgb(36,36,36) 16%,rgb(255,186,0) 16%,rgb(255,186,0) 16%,rgb(255,186,0) 25%,rgb(255,186,0) 25%,rgb(36,36,36) 25%,rgb(36,36,36) 25%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
- 
-  
+  height: 100vh;
 }
 .wordgrallary {
   margin: 30px;
@@ -323,17 +322,10 @@ body {
   text-transform: uppercase;
   font-size: 2rem;
 }
-/* #Gallary .main {
-  position: absolute;
-  width: 100px;
-  min-height: 60px;
-  height: 100%;
-  background-color: #ffba00;
-  margin-left: 150px;
-} */
-.card-img-top {
-  height: 60vh;
+.gallary img{
+  object-fit: cover;
 }
+
 /*=======social-media====*/
 ul.social-network {
   list-style: none;
